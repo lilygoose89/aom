@@ -202,21 +202,12 @@ button span {
 .bg-pale {
   background-color: #fde8e9;
 }
-.bg-trans {
-  background: linear-gradient(rgba(44,66,81,0.7), rgba(44,66,81,0.7)), url('/images/translation.jpg');
-}
-.bg-admin {
-  background: linear-gradient(rgba(44,66,81,0.7), rgba(44,66,81,0.7)), url('/images/administration.jpg');
-}
-.bg-setup {
-  background: linear-gradient(rgba(44,66,81,0.7), rgba(44,66,81,0.7)), url('/images/businesssetup.jpg');
-}
-.bg-sm {
-  background: linear-gradient(rgba(44,66,81,0.7), rgba(44,66,81,0.7)), url('/images/socialmediamanagement.jpg');
+.box-shadow {
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 .services {
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
   background-position: center;
   overflow-y: hidden;
   height: 220px;
