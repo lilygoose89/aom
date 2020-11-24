@@ -4,10 +4,10 @@
     <a href="#header"><img src="/images/aom-logo-text-1.png" alt="chiang mai lawyer online logo" class="logo"/></a>
   </div>
   <div class="col-4 grid-spaceBetween-middle nav">
-    <a href="#about" class="text-red">About</a>
-    <a href="#services" class="text-red">Services</a>
-    <a href="#references" class="text-red">References</a>
-    <a href="#contact" class="text-red">Contact</a>
+    <a href="#about" class="text-red">{% if page.url contains 'th' %}เกี่ยวกับ{% else %}About{% endif %}</a>
+    <a href="#services" class="text-red">{% if page.url contains 'th' %}บริการ{% else %}Services{% endif %}</a>
+    <a href="#references" class="text-red">{% if page.url contains 'th' %}อ้างอิง{% else %}References{% endif %}</a>
+    <a href="#contact" class="text-red">{% if page.url contains 'th' %}ติดต่อ{% else %}Contact{% endif %}</a>
     </ul>
   </div>
 </nav>

@@ -1,4 +1,14 @@
 <footer class="text-center pad-all-xs">
-  <p class="text-white"><i class="fa fa-copyright" aria-hidden="true"></i> Chiang Mai Lawyer Online <script type="text/javascript">
-  document.write(new Date().getFullYear()); </script> | Created by <a href="http://lilybruns.com" target=blank>Lily Bruns</a></p>
+  {% if page.url contains 'th' %}
+
+  <p class="pad-bottom-s"><a href="/">Translate to English</a></p>
+
+  {% else %}
+
+  <p class="pad-bottom-s"><a href="/th">แปลเป็นภาษาไทย</a></p>
+
+  {% endif %}
+
+  <h5 class="text-white"><i class="fa fa-copyright" aria-hidden="true"></i> Chiang Mai Lawyer Online <script type="text/javascript">
+  document.write(new Date().getFullYear()); </script> | Created by <a href="http://lilybruns.com" target=blank>Lily Bruns</a></h5>
 </footer>

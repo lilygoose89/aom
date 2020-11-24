@@ -2,18 +2,18 @@
 layout: default
 title: Chiang Mai Lawyer Online
 description: >-
-  Professional legal service in Chiang Mai Thailand.
+  บริการด้านกฎหมาย เชียงใหม่
 hero_image:
 og_image:
 headshot_image: /images/15302crop2 (1).jpg
 services:
   - services_image: /images/passport.jpg
-    name: Visa Services
+    name: บริการวีซ่า
     id: serv1
     description: >-
       Get a visa to live in Thailand. We will help you to find the best visa solution for your needs and budget. Packages offerred for Education Visas, Volunteer Visas, Retirement Visas and Business Visas.
   - services_image: /images/contracts.jpg
-    name: Contracts
+    name: เขียนสัญญา
     id: serv2
     description: >-
       Specializing in creating and reviewing contracts. Make sure your interests are represented and your contracts are compliant with and enforceable by Thai law. Create employment contracts, partnership agreements, and more.
@@ -55,8 +55,8 @@ testimonials:
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </p>
   <div class="pad-all-xs">
-    <a href="#about"><button class="button-left">Learn More</button></a>
-    <a href="#services"><button class="button-right">Services</button></a>
+    <a href="#about"><button class="button-left">เรียนรู้เพิ่มเติม</button></a>
+    <a href="#services"><button class="button-right">บริการ</button></a>
   </div>
 </header>
 <section id="about" class="pad-section text-center-mobile">
@@ -73,13 +73,13 @@ testimonials:
   </div>
 </section>
 <section id="services" class="bg-grey pad-section">
-  <h2 class="text-center pad-top-m pad-bottom-xs">Services</h2>
+  <h2 class="text-center pad-top-m pad-bottom-xs editable">บริการ</h2>
   <div class="grid-center">
     {% for services in page.services%}
     <div class="col-4_sm-12 margin-all-xs services grid-middle-center-noGutter" style="background: linear-gradient(rgba(44,66,81,0.7), rgba(44,66,81,0.7)), url({{services.services_image}});">
       <div class="col-12">
         <h4 class="pad-bottom-xs">{{services.name}}</h4>
-        <button id="{{services.id}}" class="button-service">Learn More</button>
+        <button id="{{services.id}}" class="button-service">เรียนรู้เพิ่มเติม</button>
       </div>
     </div>
     <div id="{{services.id}}Modal" class="modal">
@@ -96,12 +96,12 @@ testimonials:
     <p class="col-6_sm-12 editable">
       Need a lawyer in Chiang Mai? Get in touch today.
     </p>
-    <a class="col-12" href="#contact"><button class="button-main">Send Me a Message</button></a>
+    <a class="col-12" href="#contact"><button class="button-main">ส่งข้อความ</button></a>
   </div>
 </section>
 <section id="references" class="pad-top-s pad-section">
 
-  <h2 class="text-center pad-top-xs">References</h2>
+  <h2 class="text-center pad-top-xs editable">อ้างอิง</h2>
    <!-- this is the container for the testimonials which should cycle through like a gallery -->
    <div class="grid-middle">
 
@@ -155,13 +155,13 @@ testimonials:
 
 <section id="contact" class="bg-contact grid-center" stlye="height: 70vh;">
   <div class="col-6_sm-8 pad-top-xs pad-bottom-s">
-    <h2 class="text-blue text-center pad-top-s pad-bottom-s">Contact</h2>
+    <h2 class="text-blue text-center pad-top-s pad-bottom-s">ติดต่อ</h2>
     <form method="POST" action="https://formspree.io/f/xvovbodk">
-      <input type="name" name="name" placeholder="Your Name" />
+      <input type="name" name="name" placeholder="ชื่อ" />
       <input type="hidden" name="_next" value="http://chiangmailawyer.online.com/#references" />
-      <input type="email" name="email" placeholder="Your email" />
-      <textarea name="message" placeholder="Your message"></textarea>
-      <button type="submit" class="button-contact">Send</button>
+      <input type="email" name="email" placeholder="ที่อยู่อีเมล" />
+      <textarea name="message" placeholder="ข้อความ"></textarea>
+      <button type="submit" class="button-contact">ส่งข้อความ</button>
     </form>
   </div>
 </section>

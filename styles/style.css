@@ -375,7 +375,7 @@ nav a:hover {
   border: 1px solid #aaa;
 }
 #contact textarea {
-  height: 100px;
+  min-height: 180px;
   max-width: 100%;
   resize: none;
   font-family: 'Open Sans', sans-serif;
@@ -393,7 +393,7 @@ footer {
   background: linear-gradient(rgba(44,66,81,0.7), rgba(44,66,81,0.7)), url('');
 }
 footer p {
-  font-family: 'Vidaloka', serif;
+  /* font-family: 'Vidaloka', serif; */
   color: #757679;
   font-size: 0.8em;
 }
